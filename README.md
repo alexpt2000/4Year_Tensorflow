@@ -13,8 +13,11 @@ Split the data set into a training set and a testing set. You should investigate
 ### Train the model
 Use the testing set to train your model.
 
-###Test the model
+### Test the model
 Use the testing set to test your model, clearly calculating and displaying the error rate.
+
+
+## [Click here to open the notebook (Tensorflow_IrisDataSet_Keras.ipynb)](https://github.com/alexpt2000gmit/4Year_Tensorflow/blob/master/Tensorflow_IrisDataSet_Keras.ipynb)
 
 
 ![Screencast](Screencast/screencast.gif)
