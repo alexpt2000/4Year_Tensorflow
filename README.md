@@ -1,19 +1,20 @@
-# EMERGING TECHNOLOGIES - Jupyter, numpy and pyplot
+# EMERGING TECHNOLOGIES - Problem set: Tensorflow
 
-The Jupyter notebook is a web-based notebook environment for interactive
-computing.
+![Keras](Screencast/keras-tensorflow-logo.jpg)
 
+These problems relate to the Python package Tensorflow. We will again use the famous iris data set. Save your work as a single Jupyter notebook file in a GitHub repository. Include any required data files, a README, and a gitignore file in the repository.
 
-### Jupyter notebook, the language-agnostic evolution of IPython notebook
-Jupyter notebook is a language-agnostic HTML notebook application for
-Project Jupyter. In 2015, Jupyter notebook was released as a part of
-The Big Split™ of the IPython codebase. IPython 3 was the last major monolithic
-release containing both language-agnostic code, such as the *IPython notebook*,
-and language specific code, such as the *IPython kernel for Python*. As
-computing spans across many languages, Project Jupyter will continue to develop the
-language-agnostic **Jupyter notebook** in this repo and with the help of the
-community develop language specific kernels which are found in their own
-discrete repos.
+### Use Tensorflow to create model
+Use Tensorflow to create a model to predict the species of Iris from a flower’s sepal width, sepal length, petal width, and petal length.
+
+### Split the data into training and testing
+Split the data set into a training set and a testing set. You should investigate the best way to do this, and list any online references used in your notebook. If you wish to, you can write some code to randomly separate the data on the fly.
+
+### Train the model
+Use the testing set to train your model.
+
+###Test the model
+Use the testing set to test your model, clearly calculating and displaying the error rate.
 
 
 ![Screencast](Screencast/screencast.gif)
@@ -57,7 +58,7 @@ https://git-scm.com/downloads
 
 ### Create a new directory somewhere, and clone the project by running from cmd:
 ```
-git clone https://github.com/alexpt2000gmit/4Year_JupyterPyplotAndMumpy.git
+git clone https://github.com/alexpt2000gmit/4Year_Tensorflow.git
 ```
 
 ## Usage - Running Jupyter notebook
