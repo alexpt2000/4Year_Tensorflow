@@ -1,9 +1,5 @@
-# Ignore data files
-
-
-
-# Ignore image files
-
+# Ignore folder
+.ipynb_checkpoints/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
